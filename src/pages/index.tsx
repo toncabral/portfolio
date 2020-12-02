@@ -1,11 +1,14 @@
 import React from 'react';
 
+import HomeLayout from '@layouts/home';
+
+import { Container } from './styles';
+
 const Home: React.FC = () => {
   return (
-    <>
-      <p>Olá, eu sou o</p>
-      <h1>Ton Cabral</h1>
-    </>
+    <Container>
+      <HomeLayout />
+    </Container>
   );
 };
 

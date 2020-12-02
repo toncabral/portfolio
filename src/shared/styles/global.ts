@@ -47,11 +47,11 @@ export default createGlobalStyle`
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 
   p {
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.125rem;
+    font-weight: normal;
   }
 `;
