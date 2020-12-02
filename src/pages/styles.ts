@@ -7,5 +7,6 @@ export const Container = styled.div`
 
   & > div {
     max-width: 1150px;
+    width: 100%;
   }
 `;

@@ -24,7 +24,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: #1E0548;
+    background: #1E0548;
+    background: radial-gradient(78.61% 201.24% at 16.7% 64.5%, #1E0548 0.22%, #452F69 100%);
     -webkit-font-smoothing: antialised;
     color: #EBEBEB;
   }

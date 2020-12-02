@@ -8,7 +8,15 @@ export const Container = styled.div`
   justify-content: space-around;
 
   section {
-    width: 50%;
+    &:first-child {
+      max-width: 500px;
+    }
+
+    &:last-child {
+      border-radius: 50%;
+      border: 9px solid #a2a0f4;
+      overflow: hidden;
+    }
   }
 `;
 
