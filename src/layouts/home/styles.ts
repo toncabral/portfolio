@@ -7,6 +7,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
 
+  @media screen and (max-width: 1149px) {
+    flex-direction: column-reverse;
+  }
+
   section {
     &:first-child {
       max-width: 500px;

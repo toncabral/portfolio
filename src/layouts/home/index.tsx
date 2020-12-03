@@ -25,8 +25,8 @@ const Home: React.FC = () => (
     <section>
       <Image
         src="https://avatars2.githubusercontent.com/u/66173308?s=460&u=4142881adc9439e68183e30eda5cef87fa8049f9&v=4"
-        width="395px"
-        height="395px"
+        width={150}
+        height={150}
         alt="Foto do autor"
       />
     </section>
